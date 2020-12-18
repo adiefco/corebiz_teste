@@ -4,8 +4,8 @@
 ## Rodando o projeto
 
 ```
-$ git clone https://github.com/adiefco/corebiz-teste.git
-$ cd corebiz-teste
+$ git clone https://github.com/adiefco/corebiz_teste.git
+$ cd corebiz_teste
 $ npm install
 $ npm start
 ```
