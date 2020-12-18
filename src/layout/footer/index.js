@@ -10,39 +10,23 @@ import { ReactComponent as LogoVtex } from '../../assets/vtex.svg';
 const footer = () => (
   <S.Footer>
     <S.Wrapper>
-
       <S.Location>
         <h3>Localização</h3>
         <hr />
-        <p>
-          Rua Ifigênia Maria de Oliveira 3793
-        </p>
-        <p>
-          Jd. Piratininga - 14403-583
-        </p>
-        <p>
-          Franca SP, Brasil
-        </p>
-        <p>
-          contato@clickqi.com.br
-        </p>
-        <p>
-          +55 16 3713-6985
-        </p>
+        <p>Avenida Andrômeda, 2000. Bloco 6 e 8</p>
+        <p>Alphavile SP</p>
+        <p>brasil@corebiz.ag</p>
+        <p>+55 11 3090 1039</p>
       </S.Location>
 
       <S.Contact>
         <S.Button href="/">
           <MailIcon size={17} />
-          <span>
-            ENTRE EM CONTATO
-          </span>
+          <span>ENTRE EM CONTATO</span>
         </S.Button>
         <S.Button href="/">
           <HeadSetIcon size={17} />
-          <span>
-            FALE COM O NOSSO CONSULTOR ONLINE
-          </span>
+          <span>FALE COM O NOSSO CONSULTOR ONLINE</span>
         </S.Button>
       </S.Contact>
 
@@ -56,7 +40,6 @@ const footer = () => (
           <LogoVtex />
         </a>
       </S.Sign>
-
     </S.Wrapper>
   </S.Footer>
 );
